@@ -4,7 +4,7 @@ jobs:
   include:
     - stage: build
       script:
-      - git clone https://github.com/harik8/hello-docker.git 
+      - git clone https://github.com/5ilenc3/hello-docker.git 
       - cd hello-docker
       - docker build -t harik8/hello-docker:latest .
       - docker images
