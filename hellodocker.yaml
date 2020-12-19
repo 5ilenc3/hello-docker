@@ -8,11 +8,7 @@ metadata:
 spec:
   containers:
   - image: harik8/hello-docker
-    name: jnlp
-    ports: 
-      - name: jnlp
-        containerPort: 80
-        protocol: TCP
+    name: hello-docker
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Never
