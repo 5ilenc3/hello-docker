@@ -7,8 +7,12 @@ metadata:
   namespace: challange
 spec:
   containers:
-  - image: 5ilenc3/hello-docker
+  - image: harik8/hello-docker
     name: hello-docker
+    ports: 
+      - name: hello-docker
+        containerPort: 80
+        protocol: TCP
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Never
